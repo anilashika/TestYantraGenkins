@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="1" parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="smoke">
+				
+			</include>
+		</run>
+	</groups>
   <test thread-count="1" parallel="tests" name="Test">
     <classes>
-      <class name="TestYantraJenkins.Sample"/>
-      <class name="TestYantraJenkins.Demo"/>
-      <class name="TestYantraJenkins.Practise"/>
+      <class name="com.TestNg.SampleTest"/>
+      <class name="com.TestNg.PracticeTest"/>
+      <class name="com.TestNg.NewSample"/>
+      <class name="com.TestNg.Demo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

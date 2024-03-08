@@ -14,7 +14,11 @@ public class Demo {
 	{
 		System.out.println("TestScript_2");
 	}
-
+	@Test(groups="integrationsuite")
+	public void TestScript_7()
+	{
+		System.out.println("TestScript_7");
+	}
 
 
 }
