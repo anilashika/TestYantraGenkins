@@ -9,7 +9,7 @@ public class NewSample {
 		System.out.println("TestScript_7");
 	}
 	@Test(groups="smokesuite")
-	public void TestScript_8()
+	public void TestScript_8() 
 	{
 		System.out.println("TestScript_8");
 	}
