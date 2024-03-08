@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="integration">
+			<include name="integrationsuite">
 				
 			</include>
 		</run>
